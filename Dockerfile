@@ -36,4 +36,4 @@ COPY --from=build /app /app
 ENV CHROME_BIN=/usr/bin/chromium
 
 # Default command to run the TestNG tests inside the container
-CMD ["mvn", "test"]
+CMD ["mvn", "test"
